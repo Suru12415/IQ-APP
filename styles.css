@@ -1,23 +1,27 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    color: #333;
-}
-
-header {
-    background-color: #4b3b75;
-    color: white;
-    padding: 1rem 2rem;
-    font-weight: 700;
-    font-size: 1.5rem;
-    text-align: center;
-    user-select: none;
-}
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      color: #333;
+      background-image: url('https://sdmntprwestus.oaiusercontent.com/files/00000000-9f78-6230-937d-11c46b6d44ee/raw?se=2025-05-18T20%3A52%3A40Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=c156db82-7a33-468f-9cdd-06af263ceec8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-18T00%3A31%3A23Z&ske=2025-05-19T00%3A31%3A23Z&sks=b&skv=2024-08-04&sig=Ziy2XZGHlNVhEyFPNm96/YBGms1z5YyvFVBaKcrfOn0%3D');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    header {
+      background-color: rgba(75, 59, 117, 0.9);
+      color: white;
+      padding: 1rem 2rem;
+      font-weight: 700;
+      font-size: 1.5rem;
+      text-align: center;
+      user-select: none;
+      backdrop-filter: blur(5px);
+    }
 
 main {
     flex: 1;
